@@ -8,7 +8,7 @@ from keras.models import Sequential, load_model
 from keras.layers import Conv2D, MaxPool2D, Dense, Flatten
 from keras.callbacks import ModelCheckpoint
 
-inputBasePath = r"C:\Users\C A K A\Desktop\traffic_Data"
+inputBasePath = r"    " #https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign    bu linkten veri setini indirip yolunu belirtin
 trainingFolder = 'DATA'
 labels_csv_path = os.path.join(inputBasePath, "labels.csv")
 model_path = os.path.join(inputBasePath, "traffic_sign_model.keras")
